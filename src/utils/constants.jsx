@@ -21,7 +21,6 @@ import { MdFeedback } from "react-icons/md";
 const apikey=import.meta.env.VITE_ENCRYPTED_KEY;
 export const YOUR_API_KEY=apikey;
 
-//export const YOUR_API_KEY="AIzaSyC1KoKoFWlgDYqoCp0Scqw6CMvwF2w3Fdw";
 export const video_api="https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key="+YOUR_API_KEY;
 export const CHANNEL_INFO_API = "https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&key=" + YOUR_API_KEY
 export const fetchTagsUrl =
